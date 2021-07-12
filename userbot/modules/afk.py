@@ -24,10 +24,10 @@ from userbot.events import register
 
 # ========================= CONSTANTS ============================
 AFKSTR = [
-    f"🔥𝙋𝙀𝙎𝘼𝙉 𝙊𝙏𝙊𝙈𝘼𝙏𝙄𝙎\n╭╼════════════╾ \n┣ {ALIVE_NAME} ꜱᴇᴅᴀɴɢ ᴀꜰᴋ\n╰╼═════════╾",
-    f"🔥𝙋𝙀𝙎𝘼𝙉 𝙊𝙏𝙊𝙈𝘼𝙏𝙄𝙎\n╭╼════════════╾ \n┣ {ALIVE_NAME} ꜱᴇᴅᴀɴɢ ᴀꜰᴋ\n╰╼═════════╾",
-    f"🔥𝙋𝙀𝙎𝘼𝙉 𝙊𝙏𝙊𝙈𝘼𝙏𝙄𝙎\n╭╼════════════╾ \n┣ {ALIVE_NAME} ꜱᴇᴅᴀɴɢ ᴀꜰᴋ\n╰╼═════════╾",
-    f"🔥𝙋𝙀𝙎𝘼𝙉 𝙊𝙏𝙊𝙈𝘼𝙏𝙄𝙎\n╭╼════════════╾ \n┣ {ALIVE_NAME} ꜱᴇᴅᴀɴɢ ᴀꜰᴋ\n╰╼═════════╾",
+    f"𝑨𝒖𝒕𝒐𝒎𝒂𝒕𝒊𝒄 𝑴𝒆𝒔𝒔𝒂𝒈𝒆\n╭╼════════════╾ \n┣ {ALIVE_NAME} Sᴇᴅᴀɴɢ Aꜰᴋ\n╰╼═════════╾",
+    f"𝑨𝒖𝒕𝒐𝒎𝒂𝒕𝒊𝒄 𝑴𝒆𝒔𝒔𝒂𝒈𝒆\n╭╼════════════╾ \n┣ {ALIVE_NAME} Sᴇᴅᴀɴɢ Aꜰᴋ\n╰╼═════════╾",
+    f"𝑨𝒖𝒕𝒐𝒎𝒂𝒕𝒊𝒄 𝑴𝒆𝒔𝒔𝒂𝒈𝒆\n╭╼════════════╾ \n┣ {ALIVE_NAME} Sᴇᴅᴀɴɢ Aꜰᴋ\n╰╼═════════╾",
+    f"𝑨𝒖𝒕𝒐𝒎𝒂𝒕𝒊𝒄 𝑴𝒆𝒔𝒔𝒂𝒈𝒆\n╭╼════════════╾ \n┣ {ALIVE_NAME} Sᴇᴅᴀɴɢ Aꜰᴋ\n╰╼═════════╾",
 ]
 
 
@@ -62,9 +62,9 @@ async def set_afk(afk_e):
     afk_start = start_1.replace(microsecond=0)
     if string:
         AFKREASON = string
-        await afk_e.edit(f"🔥𝙋𝙀𝙎𝘼𝙉 𝙊𝙏𝙊𝙈𝘼𝙏𝙄𝙎\n╭╼═══╾╼═══╾╼═══╾╼═══╾ \n┣ {ALIVE_NAME} ᴀꜰᴋ ᴅᴜʟᴜ\n┣ ᴀʟᴀꜱᴀɴ : {AFKREASON}\n╰╼═══╾╼═══╾╼═══╾")
+        await afk_e.edit(f"𝑨𝒖𝒕𝒐𝒎𝒂𝒕𝒊𝒄 𝑴𝒆𝒔𝒔𝒂𝒈𝒆\n╭╼═══╾╼═══╾╼═══╾╼═══╾ \n┣ {ALIVE_NAME} ᴀꜰᴋ ᴅᴜʟᴜ\n┣ ᴀʟᴀꜱᴀɴ : {AFKREASON}\n╰╼═══╾╼═══╾╼═══╾")
     else:
-        await afk_e.edit("🔥 𝘼 𝙁 𝙆\n╭╼═══╾╼═══╾╼═══╾ \n┣ ᴊᴀɴɢᴀɴ ᴅɪᴄᴀʀɪ ✨\n╰╼═══╾╼═══╾")
+        await afk_e.edit("𝘼 𝙁 𝙆\n╭╼═══╾╼═══╾╼═══╾ \n┣ @Reeeeeezy ᴀꜰᴋ!!\n╰╼═══╾╼═══╾")
     if user.last_name:
         await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name))
     else:
